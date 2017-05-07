@@ -1,0 +1,127 @@
+.MakeBetter{
+color: rgb(255,255,255);
+font-family: 'Raleway', sans-serif;
+font-size: 80px;
+
+}
+.FontHead{
+font-family: 'Raleway', sans-serif;
+font-size: 60px;
+
+}
+.FontPara{
+font-family: 'Raleway', sans-serif;
+font-size: 150px;
+}
+
+input[type=text] {
+    width: 170px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('http://i.imgur.com/s6TANEf.png');
+    background-position: 5px 5px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+input[type=text1] {
+    width: 170px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    margin: 0px 10px 0px 0px;
+    font-size: 16px;
+    float: right;
+    background-color: white;
+    background-image: url('http://i.imgur.com/s6TANEf.png');
+    background-position: 5px 5px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+.select-style .goog-menu-button .goog-menu-button-inner-box {
+    background-color: rgb(70, 162, 68);
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    height: auto;
+    width: auto;
+    border-radius: 5px;
+	
+}
+.google-visualization-controls-label{
+	display:none;
+}
+
+
+table {
+    width: 100%;
+}
+
+th {
+    height: 50px;
+}
+table {
+    border-collapse: collapse;
+}
+
+.btn-group button {
+    background-color: #4CAF50; /* Green background */
+    border: 1px solid green; /* Green border */
+    color: white; /* White text */
+    padding: 0px 0px; /* Some padding */
+    width: 140px;
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group .button:hover {
+    background-color: #3e8e41;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    width: 275px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.button1 {width: 300px;}
+
+button:active {
+    background-color: #3e8e41;
+}
+
+p {
+    font-size: 250%;
+    margin: 0 10px 0 10px;
+    padding: 0 0 0 0;
+}
+.selector{
+	display:inline;
+	width:20%;
+}
+

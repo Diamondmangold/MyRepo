@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>	
+		<link rel='stylesheet' type='text/css' href="CSS/ChartsPageCSS.css">
+		<link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet">
+		<link rel="stylesheet" href="CSS/GRED.css">
+		<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript"></script>
+		<script src="Scripts/GREDscriptV2.js"></script>		
+
+				<!-- Foundation imports: -->
+		<link rel='stylesheet' type='text/css' href="Foundation/css/foundation.css">
+		<link rel='stylesheet' type='text/css' href="Foundation/css/custom.css">
+		<link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet">
+			<!-- Insert this within your head tag and after foundation.css -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/motion-ui/1.1.1/motion-ui.min.css" />
+
+		<script src="Scripts/javascript.js"></script>
+</head>
+	<body>
+		<table>
+	  <tr>
+		<th><center><form><input type="text" name="search" placeholder="mm/dd/yy"></form></center></th>
+		<th><p>to</p><th>
+		<th><left><form><input type="text1" name="search" placeholder="mm/dd/yy"></form></left></th>
+		<th><button id="Line" class="button" class=“active”>Linechart</button><th>
+		<th><button id="Bar" class="button" class=“active”>Bar Graph</button><th>
+		<th><button id="Table" class="button" class=“active”>Data Table</button><th>
+	  </tr>
+		<!--Table and divs that hold the pie charts-->
+
+	</table>
+		<div id="chartcontainer">
+			<div class="chart1" id="chart1"></div>
+			<div id="dashboard_div">
+      			<!--Divs that will hold each control and chart-->
+      			<div id="filter_div"></div>
+						<select class="selector" id="format-select">
+							<option value=1>Environment Duration </option>
+							<option value=2>Outside Temperature </option>
+							<option value=3>Wind Chill </option>
+							<option value=4>Heat Index </option>
+							<option value=6>Humidity </option>
+							<option value=5>Dew Point </option>
+							<option value=7>Wind Speed </option>
+							<option value=8>Rain Rate </option>
+							<option value=9>Barometer </option>
+							<option value=10>Solar Radiance </option>
+							<option value=11>Green Roof Temperature </option>
+							<option value=12>White Rood Temperature </option>
+
+						</select>
+						<div id="table_div"></div>
+      			<div id="chart_div"></div>
+    </div>
+		</div> 
+	</body>
+</html>
